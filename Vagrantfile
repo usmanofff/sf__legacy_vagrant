@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
         end
   end
 
-  config.vm.provision "shell", path: "script/postgres.sh"
+  config.vm.provision "shell", path: "postgres.sh"
   
   end
   
